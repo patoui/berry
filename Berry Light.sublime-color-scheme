@@ -3,11 +3,14 @@
     "globals":
     {
         "background": "#FFFFFF",
-        "foreground": "#0084FF",
+        "foreground": "#888888",
         "caret": "#888888",
         "block_caret": "#dedcd590",
         "misspelling": "red",
         "selection": "#dddddd",
+        "brackets_foreground": "#888888",
+        "bracket_contents_options": "underline",
+        "bracket_contents_foreground": "#888888",
     },
     "rules":
     [
@@ -27,7 +30,7 @@
             "scope": "constant.other",
             "foreground": "#FF00E0"
         },
-        // HTML example: <link rel="preconnect" />, "preconnect" will be colorized
+        // HTML example: <link rel="preconnect" />, "preconnect" will be colourized
         {
             "scope": "string.quoted",
             "foreground": "#003DB1",
@@ -47,7 +50,7 @@
             "scope": "variable",
             "foreground": "#2A2A2F"
         },
-        // PHP examples: $this->foo, "$this" will be colorized
+        // PHP examples: $this->foo, "$this" will be colourized
         {
             "scope": "variable.language",
             "foreground": "#2A2A2F"
@@ -61,7 +64,7 @@
             "scope": "variable.other.member",
             "foreground": "#FF00E0"
         },
-        // PHP example: public function getUser, "getUser" will be colorized
+        // PHP example: public function getUser, "getUser" will be colourized
         {
             "scope": "variable.function",
             "foreground": "#00C000"
@@ -85,7 +88,14 @@
             "scope": "keyword.operator",
             "foreground": "#888888"
         },
-        // PHP example: public function getUser(): User, ":" will be colorized
+        // PHP example: new User(), "new" will be colourized
+        {
+            "name": "Keyword",
+            "scope": "keyword - source.c keyword.operator",
+            "foreground": "#0084FF"
+        },
+        //keyword.operator.word
+        // PHP example: public function getUser(): User, ":" will be colourized
         {
             "scope": "meta.function.return-type",
             "foreground": "#888888"
@@ -121,7 +131,7 @@
             "scope": "entity.other.inherited-class",
             "foreground": "#FF00E0"
         },
-        // PHP Examples: public const FOO, "FOO" will be colorized
+        // PHP Examples: public const FOO, "FOO" will be colourized
         {
             "scope": "entity.name.constant",
             "foreground": "#FF00E0"
@@ -134,44 +144,19 @@
             "scope": "entity.name.section",
             "foreground": "#FF00E0"
         },
-        // HTML examples: <div></div>, both "div" will be colorized
+        // HTML examples: <div></div>, both "div" will be colourized
         {
             "scope": "entity.name.tag",
             "foreground": "#FF00E0"
         },
-
-        // Angle Brackets
-        // {
-        //     "name": "angle brackets",
-        //     "scope": "punctuation.definition.tag",
-        //     "foreground": "#888888",
-        // },
-        // Curly Brackets
-        // {
-        //     "name": "curly brackets",
-        //     "scope": "punctuation.definition.block",
-        //     "foreground": "#888888",
-        // },
-        // Square Brackets
-        // {
-        //     "name": "square brackets",
-        //     "scope": "punctuation.definition.array",
-        //     "foreground": "#888888",
-        // },
-        // Round Brackets
-        // {
-        //     "name": "round brackets",
-        //     "scope": "punctuation.definition.parameters",
-        //     "foreground": "#888888",
-        // },
-        // PHP example: use App\User, "App\" will be colorized
+        // PHP example: use App\User, "App\" will be colourized
         {
             "scope": "meta.path",
             "foreground": "#FF00E0",
         },
         {
             "scope": "meta.group",
-            "foreground": "#2A2A2F",
+            "foreground": "#888888",
         },
         // PHP: method call parantheses
         {
@@ -182,51 +167,6 @@
             "scope": "punctuation.section.group.end",
             "foreground": "#888888"
         },
-
-        // {
-        //     "scope": "meta.brackets",
-        //     "foreground": "red"
-        // },
-        // {
-        //     "scope": "punctuation.definition.brackets.begin",
-        //     "foreground": "yellow"
-        // },
-        // {
-        //     "scope": "punctuation.definition.brackets.end",
-        //     "foreground": "yellow"
-        // },
-
-        // {
-        //     "scope": "meta.parens",
-        //     "foreground": "red"
-        // },
-        // {
-        //     "scope": "punctuation.definition.parens.begin",
-        //     "foreground": "yellow"
-        // },
-        // {
-        //     "scope": "punctuation.definition.parens.end",
-        //     "foreground": "yellow"
-        // },
-
-        // {
-        //     "scope": "meta.generic",
-        //     "foreground": "red"
-        // },
-        // {
-        //     "scope": "punctuation.definition.generic.begin",
-        //     "foreground": "yellow"
-        // },
-        // {
-        //     "scope": "punctuation.definition.generic.end",
-        //     "foreground": "yellow"
-        // },
-
-        // {
-        //     "scope": "meta.generic punctuation.definition.generic.begin punctuation.definition.generic.end meta.group punctuation.section.group.begin punctuation.section.group.end meta.parens punctuation.section.parens.begin punctuation.section.parens.end meta.brackets punctuation.section.brackets.begin punctuation.section.brackets.end",
-        //     "foreground": "yellow",
-        //     "background": "red"
-        // },
 
         // JSON
         {
