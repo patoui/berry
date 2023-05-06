@@ -1,0 +1,253 @@
+{
+    "name": "Berry Light",
+    "globals":
+    {
+        "background": "#FFFFFF",
+        "foreground": "#0084FF",
+        "caret": "#888888",
+        "block_caret": "#dedcd590",
+        "misspelling": "red",
+        "selection": "#dddddd",
+    },
+    "rules":
+    [
+        {
+            "scope": "support",
+            "foreground": "#FF00E0",
+        },
+        {
+            "scope": "comment",
+            "foreground": "#888888"
+        },
+        {
+            "scope": "constant.language",
+            "foreground": "#0084FF"
+        },
+        {
+            "scope": "constant.other",
+            "foreground": "#FF00E0"
+        },
+        // HTML example: <link rel="preconnect" />, "preconnect" will be colorized
+        {
+            "scope": "string.quoted",
+            "foreground": "#003DB1",
+        },
+        // PHP examples: use, const, function, string, array, null
+        {
+            "scope": "storage.type",
+            "foreground": "#0084FF",
+        },
+        // PHP examples: private, protect, public
+        {
+            "scope": "storage.modifier",
+            "foreground": "#0084FF",
+        },
+        // PHP examples: $foo
+        {
+            "scope": "variable",
+            "foreground": "#2A2A2F"
+        },
+        // PHP examples: $this->foo, "$this" will be colorized
+        {
+            "scope": "variable.language",
+            "foreground": "#2A2A2F"
+        },
+        // PHP examples: $foo
+        {
+            "scope": "variable.other",
+            "foreground": "#2A2A2F"
+        },
+        {
+            "scope": "variable.other.member",
+            "foreground": "#FF00E0"
+        },
+        // PHP example: public function getUser, "getUser" will be colorized
+        {
+            "scope": "variable.function",
+            "foreground": "#00C000"
+        },
+        {
+            "scope": "variable.parameter",
+            "foreground": "#2A2A2F"
+        },
+        // PHP examples: return, die
+        {
+            "scope": "keyword.control",
+            "foreground": "#0084FF"
+        },
+        // PHP examples: if, else
+        {
+            "scope": "keyword.control.conditional",
+            "foreground": "#0084FF"
+        },
+        // PHP examples: =, ==, ===, &&, ||, &, and, or
+        {
+            "scope": "keyword.operator",
+            "foreground": "#888888"
+        },
+        // PHP example: public function getUser(): User, ":" will be colorized
+        {
+            "scope": "meta.function.return-type",
+            "foreground": "#888888"
+        },
+        // Function name
+        {
+            "scope": "entity.name.function",
+            "foreground": "#00C000"
+        },
+        {
+            "scope": "entity.name.namespace",
+            "foreground": "#FF00E0"
+        },
+        // TODO: determine why colours aren't respected
+        {
+            "scope": "entity.name.function.constructor",
+            "foreground": "#00C000"
+        },
+        // TODO: determine why colours aren't respected
+        {
+            "scope": "entity.name.function.destructor",
+            "foreground": "#00C000"
+        },
+        {
+            "scope": "entity.name.enum",
+            "foreground": "#FF00E0"
+        },
+        {
+            "scope": "entity.name.class",
+            "foreground": "#FF00E0"
+        },
+        {
+            "scope": "entity.other.inherited-class",
+            "foreground": "#FF00E0"
+        },
+        // PHP Examples: public const FOO, "FOO" will be colorized
+        {
+            "scope": "entity.name.constant",
+            "foreground": "#FF00E0"
+        },
+        {
+            "scope": "entity.name.label",
+            "foreground": "#FF00E0"
+        },
+        {
+            "scope": "entity.name.section",
+            "foreground": "#FF00E0"
+        },
+        // HTML examples: <div></div>, both "div" will be colorized
+        {
+            "scope": "entity.name.tag",
+            "foreground": "#FF00E0"
+        },
+
+        // Angle Brackets
+        // {
+        //     "name": "angle brackets",
+        //     "scope": "punctuation.definition.tag",
+        //     "foreground": "#888888",
+        // },
+        // Curly Brackets
+        // {
+        //     "name": "curly brackets",
+        //     "scope": "punctuation.definition.block",
+        //     "foreground": "#888888",
+        // },
+        // Square Brackets
+        // {
+        //     "name": "square brackets",
+        //     "scope": "punctuation.definition.array",
+        //     "foreground": "#888888",
+        // },
+        // Round Brackets
+        // {
+        //     "name": "round brackets",
+        //     "scope": "punctuation.definition.parameters",
+        //     "foreground": "#888888",
+        // },
+        // PHP example: use App\User, "App\" will be colorized
+        {
+            "scope": "meta.path",
+            "foreground": "#FF00E0",
+        },
+        {
+            "scope": "meta.group",
+            "foreground": "#2A2A2F",
+        },
+        // PHP: method call parantheses
+        {
+            "scope": "punctuation.section.group.begin",
+            "foreground": "#888888"
+        },
+        {
+            "scope": "punctuation.section.group.end",
+            "foreground": "#888888"
+        },
+
+        // {
+        //     "scope": "meta.brackets",
+        //     "foreground": "red"
+        // },
+        // {
+        //     "scope": "punctuation.definition.brackets.begin",
+        //     "foreground": "yellow"
+        // },
+        // {
+        //     "scope": "punctuation.definition.brackets.end",
+        //     "foreground": "yellow"
+        // },
+
+        // {
+        //     "scope": "meta.parens",
+        //     "foreground": "red"
+        // },
+        // {
+        //     "scope": "punctuation.definition.parens.begin",
+        //     "foreground": "yellow"
+        // },
+        // {
+        //     "scope": "punctuation.definition.parens.end",
+        //     "foreground": "yellow"
+        // },
+
+        // {
+        //     "scope": "meta.generic",
+        //     "foreground": "red"
+        // },
+        // {
+        //     "scope": "punctuation.definition.generic.begin",
+        //     "foreground": "yellow"
+        // },
+        // {
+        //     "scope": "punctuation.definition.generic.end",
+        //     "foreground": "yellow"
+        // },
+
+        // {
+        //     "scope": "meta.generic punctuation.definition.generic.begin punctuation.definition.generic.end meta.group punctuation.section.group.begin punctuation.section.group.end meta.parens punctuation.section.parens.begin punctuation.section.parens.end meta.brackets punctuation.section.brackets.begin punctuation.section.brackets.end",
+        //     "foreground": "yellow",
+        //     "background": "red"
+        // },
+
+        // JSON
+        {
+            "name": "Subkey",
+            "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "#ff00e0"
+        },
+        {
+            "name": "Subvalue",
+            "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json string.quoted.double.json",
+            "foreground": "#005FE7"
+        },
+        {
+            "name": "Key",
+            "scope": "source.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "#ff00e0"
+        },
+        {
+            "name": "Subvalue",
+            "scope": "source.json meta.mapping.value.json meta.mapping.value.json string.quoted.double.json",
+            "foreground": "#005FE7"
+        },
+    ]
+}
