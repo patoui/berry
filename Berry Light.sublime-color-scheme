@@ -149,11 +149,6 @@
             "scope": "entity.name.tag",
             "foreground": "#FF00E0"
         },
-        // PHP example: use App\User, "App\" will be colourized
-        {
-            "scope": "meta.path",
-            "foreground": "#FF00E0",
-        },
         {
             "scope": "meta.group",
             "foreground": "#888888",
