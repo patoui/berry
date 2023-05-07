@@ -4,3 +4,15 @@ The Berry Theme for Sublime Text is heavily inspired by [PHPStorm Photon Theme](
 
 PHP example
 ![image](https://user-images.githubusercontent.com/4511175/236653208-fe6beb03-634b-4ab4-a729-f1a6e77d34f4.png)
+
+Go example
+![image](https://user-images.githubusercontent.com/4511175/236677900-a9ae03b4-9ccd-4fb9-b457-df1308bc3228.png)
+
+JavaScript
+![image](https://user-images.githubusercontent.com/4511175/236678589-3340da45-81bd-4281-aff5-260fad7a4151.png)
+
+TypeScript
+![image](https://user-images.githubusercontent.com/4511175/236678414-2dbadd6d-5b3c-47a4-8bff-7a434a2842fa.png)
+
+React/JSX with [Babel](https://github.com/babel/babel-sublime)
+![image](https://user-images.githubusercontent.com/4511175/236678341-086de5d7-40a9-4dbb-b9c3-fda348c3da80.png)
