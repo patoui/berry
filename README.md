@@ -9,6 +9,14 @@ Within Sublime Text:
 - search for "Package Control: Install Package" and press enter
 - search for "Berry Color Scheme" and press enter on the mactching entry
 
+Alternatively:
+- download the color scheme file [Berry Light](https://raw.githubusercontent.com/patoui/berry/main/Berry%20Light.sublime-color-scheme)
+- move the file to the respective configuration directory for your operating system
+- example - Linux: `mv Berry\ Light.sublime-color-scheme ~/.config/sublime-text/Packages/User/`
+- open your settings
+- via command palette: Windows/Linux: Ctrl + Shift + P, MacOS: Cmd + Shift + P, search for "Preferences: Settings" and press enter
+- add or update `color_scheme` key to `Berry Light.sublime-color-scheme`
+
 ## Examples
 
 ### PHP
