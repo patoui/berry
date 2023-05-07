@@ -9,11 +9,13 @@ Within Sublime Text:
 - search for "Package Control: Install Package" and press enter
 - search for "Berry Color Scheme" and press enter on the mactching entry
 
-### PHP example
+## Examples
+
+### PHP
 
 ![image](https://user-images.githubusercontent.com/4511175/236679503-4929dc3d-b9c1-43f8-999b-96dbc9f5ab44.png)
 
-### Go example
+### Go
 
 ![image](https://user-images.githubusercontent.com/4511175/236677900-a9ae03b4-9ccd-4fb9-b457-df1308bc3228.png)
 
