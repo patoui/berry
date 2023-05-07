@@ -1,188 +1,261 @@
 {
     "name": "Berry Light",
+    "variables": {
+        "blue1": "#0084FF",
+        "blue2": "#005FE7",
+        "blue3": "#003DB1",
+        "blue4": "#00217A",
+        "blue5": "#000F43",
+
+        "pink1": "#FF00E0",
+        "pink2": "#FF00BA",
+        "pink3": "#C50082",
+        "pink4": "#880051",
+        "pink5": "#4B0028",
+
+        "purple1": "#A200FF",
+        "purple2": "#8C00E0",
+        "purple3": "#6C00AB",
+        "purple4": "#4B0076",
+        "purple5": "#2A0041",
+
+        "green1": "#00EB00",
+        "green2": "#00C000",
+        "green3": "#008E00",
+        "green4": "#006700",
+        "green5": "#003800",
+
+        "grey1": "#2A2A2F",
+        "grey2": "#333333",
+        "grey3": "#555555",
+        "grey4": "#888888",
+        "grey5": "#DDDDDD",
+        "grey6": "#EEEEEE",
+
+        "white": "#FFFFFF",
+
+        "orange": "#F2CA00",
+
+        "red": "#BE2C13",
+    },
     "globals":
     {
-        "background": "#FFFFFF",
-        "foreground": "#888888",
-        "caret": "#888888",
-        "block_caret": "#dedcd590",
-        "misspelling": "red",
-        "selection": "#dddddd",
-        "brackets_foreground": "#888888",
+        "background": "var(white)",
+        "foreground": "var(grey4)",
+        "caret": "var(grey4)",
+        "block_caret": "var(grey6)",
+        "misspelling": "var(red)",
+        "selection": "var(grey5)",
+        "brackets_foreground": "var(grey4)",
         "bracket_contents_options": "underline",
-        "bracket_contents_foreground": "#888888",
+        "bracket_contents_foreground": "var(grey4)",
     },
     "rules":
     [
         {
             "scope": "support",
-            "foreground": "#FF00E0",
+            "foreground": "var(pink1)",
         },
         {
             "scope": "comment",
-            "foreground": "#888888"
+            "foreground": "var(grey4)"
+        },
+        {
+            "scope": "invalid",
+            "foreground": "var(orange)"
+        },
+        {
+            "scope": "invalid.deprecated",
+            "foreground": "var(orange)"
+        },
+        {
+            "scope": "constant",
+            "foreground": "var(blue1)"
+        },
+        // PHP example: public const BAR = 321, "321" will be colourized
+        {
+            "scope": "constant.numeric",
+            "foreground": "var(blue1)"
         },
         {
             "scope": "constant.language",
-            "foreground": "#0084FF"
+            "foreground": "var(blue1)"
+        },
+        {
+            "scope": "constant.character.escape",
+            "foreground": "var(blue1)"
         },
         {
             "scope": "constant.other",
-            "foreground": "#FF00E0"
+            "foreground": "var(pink1)"
+        },
+        {
+            "scope": "string",
+            "foreground": "var(blue3)",
         },
         // HTML example: <link rel="preconnect" />, "preconnect" will be colourized
         {
             "scope": "string.quoted",
-            "foreground": "#003DB1",
+            "foreground": "var(blue3)",
         },
         // PHP examples: use, const, function, string, array, null
         {
             "scope": "storage.type",
-            "foreground": "#0084FF",
+            "foreground": "var(blue1)",
         },
         // PHP examples: private, protect, public
         {
             "scope": "storage.modifier",
-            "foreground": "#0084FF",
+            "foreground": "var(blue1)",
         },
         // PHP examples: $foo
         {
             "scope": "variable",
-            "foreground": "#2A2A2F"
+            "foreground": "var(grey1)"
         },
         // PHP examples: $this->foo, "$this" will be colourized
         {
             "scope": "variable.language",
-            "foreground": "#2A2A2F"
+            "foreground": "var(grey1)"
         },
         // PHP examples: $foo
         {
             "scope": "variable.other",
-            "foreground": "#2A2A2F"
+            "foreground": "var(grey1)"
         },
         {
             "scope": "variable.other.member",
-            "foreground": "#FF00E0"
+            "foreground": "var(pink1)"
         },
         // PHP example: public function getUser, "getUser" will be colourized
         {
             "scope": "variable.function",
-            "foreground": "#00C000"
+            "foreground": "var(green2)"
         },
         {
             "scope": "variable.parameter",
-            "foreground": "#2A2A2F"
+            "foreground": "var(grey1)"
+        },
+        // PHP example: new User(), "new" will be colourized
+        {
+            "scope": "keyword",
+            "foreground": "var(blue1)"
         },
         // PHP examples: return, die
         {
             "scope": "keyword.control",
-            "foreground": "#0084FF"
+            "foreground": "var(blue1)"
         },
         // PHP examples: if, else
         {
             "scope": "keyword.control.conditional",
-            "foreground": "#0084FF"
+            "foreground": "var(blue1)"
         },
         // PHP examples: =, ==, ===, &&, ||, &, and, or
         {
             "scope": "keyword.operator",
-            "foreground": "#888888"
+            "foreground": "var(grey4)"
         },
-        // PHP example: new User(), "new" will be colourized
         {
-            "name": "Keyword",
-            "scope": "keyword - source.c keyword.operator",
-            "foreground": "#0084FF"
+            "scope": "keyword.declaration",
+            "foreground": "var(blue1)"
         },
-        //keyword.operator.word
         // PHP example: public function getUser(): User, ":" will be colourized
         {
             "scope": "meta.function.return-type",
-            "foreground": "#888888"
+            "foreground": "var(grey4)"
         },
         // Function name
         {
+            "scope": "entity.name",
+            "foreground": "var(green2)"
+        },
+        {
             "scope": "entity.name.function",
-            "foreground": "#00C000"
+            "foreground": "var(green2)"
         },
         {
             "scope": "entity.name.namespace",
-            "foreground": "#FF00E0"
+            "foreground": "var(pink1)"
         },
         // TODO: determine why colours aren't respected
         {
             "scope": "entity.name.function.constructor",
-            "foreground": "#00C000"
+            "foreground": "var(green2)"
         },
         // TODO: determine why colours aren't respected
         {
             "scope": "entity.name.function.destructor",
-            "foreground": "#00C000"
+            "foreground": "var(green2)"
         },
         {
             "scope": "entity.name.enum",
-            "foreground": "#FF00E0"
+            "foreground": "var(pink1)"
         },
         {
             "scope": "entity.name.class",
-            "foreground": "#FF00E0"
+            "foreground": "var(pink1)"
         },
         {
             "scope": "entity.other.inherited-class",
-            "foreground": "#FF00E0"
+            "foreground": "var(pink1)"
         },
         // PHP Examples: public const FOO, "FOO" will be colourized
         {
             "scope": "entity.name.constant",
-            "foreground": "#FF00E0"
+            "foreground": "var(pink1)"
         },
         {
             "scope": "entity.name.label",
-            "foreground": "#FF00E0"
+            "foreground": "var(pink1)"
         },
         {
             "scope": "entity.name.section",
-            "foreground": "#FF00E0"
+            "foreground": "var(pink1)"
         },
         // HTML examples: <div></div>, both "div" will be colourized
         {
             "scope": "entity.name.tag",
-            "foreground": "#FF00E0"
+            "foreground": "var(pink1)"
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(grey4)"
         },
         {
             "scope": "meta.group",
-            "foreground": "#888888",
+            "foreground": "var(grey4)",
         },
         // PHP: method call parantheses
         {
             "scope": "punctuation.section.group.begin",
-            "foreground": "#888888"
+            "foreground": "var(grey4)"
         },
         {
             "scope": "punctuation.section.group.end",
-            "foreground": "#888888"
+            "foreground": "var(grey4)"
         },
 
         // JSON
         {
             "name": "Subkey",
             "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "#ff00e0"
+            "foreground": "var(pink1)"
         },
         {
             "name": "Subvalue",
             "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json string.quoted.double.json",
-            "foreground": "#005FE7"
+            "foreground": "var(blue2)"
         },
         {
             "name": "Key",
             "scope": "source.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "#ff00e0"
+            "foreground": "var(pink1)"
         },
         {
             "name": "Subvalue",
             "scope": "source.json meta.mapping.value.json meta.mapping.value.json string.quoted.double.json",
-            "foreground": "#005FE7"
+            "foreground": "var(blue2)"
         },
     ]
 }
