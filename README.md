@@ -10,6 +10,14 @@ The Berry colour scheme for Sublime Text is heavily inspired by [PHPStorm Photon
 
 ![image](https://user-images.githubusercontent.com/4511175/236677900-a9ae03b4-9ccd-4fb9-b457-df1308bc3228.png)
 
+### HTML
+
+![image](https://user-images.githubusercontent.com/4511175/236679293-33686eea-3496-4dc9-a457-3b8f564d97cd.png)
+
+### CSS
+
+![image](https://user-images.githubusercontent.com/4511175/236679424-2534213b-e286-48a4-9e1f-00baf1cd807b.png)
+
 ### JavaScript
 
 ![image](https://user-images.githubusercontent.com/4511175/236678589-3340da45-81bd-4281-aff5-260fad7a4151.png)
