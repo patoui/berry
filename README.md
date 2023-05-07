@@ -1,6 +1,6 @@
 # Berry 🫐️ colour scheme for Sublime Text
 
-The Berry Theme for Sublime Text is heavily inspired by [PHPStorm Photon Theme](https://github.com/brendt/phpstorm-photon-theme) which is inspired by [Mozilla's theme](https://blog.nightly.mozilla.org/2017/09/11/developer-tools-visual-refresh-coming-to-nightly/)
+The Berry colour scheme for Sublime Text is heavily inspired by [PHPStorm Photon Theme](https://github.com/brendt/phpstorm-photon-theme) which is inspired by [Mozilla's theme](https://blog.nightly.mozilla.org/2017/09/11/developer-tools-visual-refresh-coming-to-nightly/)
 
 ### PHP example
 
