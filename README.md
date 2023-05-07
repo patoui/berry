@@ -2,6 +2,13 @@
 
 The Berry colour scheme for Sublime Text is heavily inspired by [PHPStorm Photon Theme](https://github.com/brendt/phpstorm-photon-theme) which is inspired by [Mozilla's theme](https://blog.nightly.mozilla.org/2017/09/11/developer-tools-visual-refresh-coming-to-nightly/)
 
+## Installation
+
+Within Sublime Text:
+- open the command palette (Windows/Linux: Ctrl + Shift + P, MacOS: Cmd + Shift + P)
+- search for "Package Control: Install Package" and press enter
+- search for "Berry" and press enter
+
 ### PHP example
 
 ![image](https://user-images.githubusercontent.com/4511175/236679503-4929dc3d-b9c1-43f8-999b-96dbc9f5ab44.png)
