@@ -4,7 +4,7 @@ The Berry colour scheme for Sublime Text is heavily inspired by [PHPStorm Photon
 
 ### PHP example
 
-![image](https://user-images.githubusercontent.com/4511175/236653208-fe6beb03-634b-4ab4-a729-f1a6e77d34f4.png)
+![image](https://user-images.githubusercontent.com/4511175/236679503-4929dc3d-b9c1-43f8-999b-96dbc9f5ab44.png)
 
 ### Go example
 
