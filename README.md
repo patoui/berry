@@ -7,7 +7,7 @@ The Berry colour scheme for Sublime Text is heavily inspired by [PHPStorm Photon
 Within Sublime Text:
 - open the command palette (Windows/Linux: Ctrl + Shift + P, MacOS: Cmd + Shift + P)
 - search for "Package Control: Install Package" and press enter
-- search for "Berry" and press enter
+- search for "Berry Color Scheme" and press enter on the mactching entry
 
 ### PHP example
 
