@@ -236,6 +236,71 @@
             "foreground": "var(grey4)"
         },
 
+        // JavaScript
+        {
+            "scope": "source.js punctuation.accessor",
+            "foreground": "var(grey4)"
+        },
+        {
+            "scope": "source.ts punctuation.accessor",
+            "foreground": "var(grey4)"
+        },
+        {
+            "scope": "source.js variable.function",
+            "foreground": "var(green2)"
+        },
+        {
+            "scope": "source.ts variable.function",
+            "foreground": "var(green2)"
+        },
+        {
+            "scope": "source.js meta.property.object",
+            "foreground": "var(pink1)"
+        },
+        {
+            "scope": "source.ts meta.property.object",
+            "foreground": "var(pink1)"
+        },
+
+        // Targets keyword: document,window,navigator
+        {
+            "scope": "support.type.object.dom.js",
+            "foreground": "var(grey1)"
+        },
+        {
+            "scope": "support.type.object.dom.ts",
+            "foreground": "var(grey1)"
+        },
+
+        // Targets keyword: console
+        {
+            "scope": "support.type.object.console.js",
+            "foreground": "var(grey1)"
+        },
+        {
+            "scope": "support.type.object.console.ts",
+            "foreground": "var(grey1)"
+        },
+
+        // Targets keyword: new
+        {
+            "scope": "keyword.operator.word.new.js",
+            "foreground": "var(blue1)"
+        },
+        {
+            "scope": "keyword.operator.word.new.ts",
+            "foreground": "var(blue1)"
+        },
+        // JavaScript examples: const u = new User();, "User" will be colourized
+        {
+            "scope": "source.js variable",
+            "foreground": "var(pink1)"
+        },
+        {
+            "scope": "source.ts variable",
+            "foreground": "var(pink1)"
+        },
+
         // JSON
         {
             "name": "Subkey",
